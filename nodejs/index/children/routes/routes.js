@@ -1,6 +1,6 @@
 [[[TOP_CONTENT_PLACEHOLDER]]]
 let Routes = require("./routes");
-[[[TOP_CONTENT_REPLACE]]]
+[[[/TOP_CONTENT_PLACEHOLDER]]]
 [[[MID_CONTENT_PLACEHOLDER]]]
 // Setting up the routes.
 app.use(express.Router());
