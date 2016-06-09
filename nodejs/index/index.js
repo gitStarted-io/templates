@@ -1,7 +1,7 @@
 var express = require("express");
 let bodyParser = require("body-parser");
 let cookieParser = require("cookie-parser");
-[[[TOP_CONTENT_REPLACE]]]
+[[[REPLACE:HEADER]]]
 
 const app = express();
 
