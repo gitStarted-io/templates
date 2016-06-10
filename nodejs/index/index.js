@@ -5,13 +5,13 @@ let cookieParser = require("cookie-parser");
 
 const app = express();
 
-[[[MID_CONTENT_REPLACE]]]
+[[[REPLACE:MID]]]
 
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-[[[BOTTOM_CONTENT_REPLACE]]]
+[[[REPLACE:BOTTOM]]]
 
 const server = app.listen(process.env.PORT || 3000, () => {
     const {address, port} = server.address();

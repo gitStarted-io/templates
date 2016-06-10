@@ -1,13 +1,13 @@
 var gulp = require('gulp');
 
-[[[TOP_CONTENT_REPLACE]]]
+[[[REPLACE:IMPORTS]]]
 
 console.log('after top');
 
-[[[MID_CONTENT_REPLACE]]]
+[[[REPLACE:MID]]]
 
 console.log('after mid');
 
-[[[BOTTOM_CONTENT_REPLACE]]]
+[[[REPLACE:BOTTOM]]]
 
 console.log('after bottom');

@@ -1,12 +1,8 @@
-[[[TOP_CONTENT_PLACEHOLDER]]]
+[[[PLACEHOLDER:IMPORTS]]]
 var requireDir = require('require-dir');
-[[[TOP_CONTENT_REPLACE]]]
-[[[/TOP_CONTENT_PLACEHOLDER]]]
+[[[REPLACE:IMPORTS]]]
+[[[/PLACEHOLDER:IMPORTS]]]
 
-[[[MID_CONTENT_PLACEHOLDER]]]
-console.log('from teststuff.');
-[[[/MID_CONTENT_PLACEHOLDER]]]
+[[[PLACEHOLDER:MID]]]console.log('from teststuff.');[[[/PLACEHOLDER:MID]]]
 
-[[[BOTTOM_CONTENT_PLACEHOLDER]]]
-console.log('bottom stuff');
-[[[/BOTTOM_CONTENT_PLACEHOLDER]]]
+[[[PLACEHOLDER:BOTTOM]]]console.log('bottom stuff');[[[/PLACEHOLDER:BOTTOM]]]
